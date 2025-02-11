@@ -1,15 +1,22 @@
-<h2>Overview</h2>
-This is a sample Flutter based Application for API request handling.
+# Flutter API Request Handling Sample
 
-<h5>Sample Request</h5>
-```https://api.ezuite.com/api/External_Api/Mobile_Api/Invoke```
-```{
-"API_Body": [
+This is a sample Flutter-based application for handling API requests.
+
+## Sample Request
+
+To make an API request, use the following endpoint:
+
+### Endpoint:
+
+### Request Body:
+```json
 {
-"Unique_Id": "",
-"Pw": "Welcome#5"
+  "API_Body": [
+    {
+      "Unique_Id": "",
+      "Pw": "Welcome#5"
+    }
+  ],
+  "Api_Action": "GetUserData",
+  "Company_Code": "info@enhanzer.com"
 }
-],
-"Api_Action": "GetUserData",
-"Company_Code": "info@enhanzer.com"
-}```
